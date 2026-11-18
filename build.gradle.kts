@@ -28,6 +28,7 @@ tasks {
 
         downloadPlugins {
             github("retrooper", "packetevents", "v2.14.0", "packetevents-spigot-2.14.0.jar")
+            github("4drian3d", "MCKotlin", "1.5.1-k2.4.20", "MCKotlinPaper-1.5.1-k2.4.20.jar")
         }
     }
 }
@@ -41,5 +42,6 @@ paper {
 
     serverDependencies {
         register("packetevents")
+        register("MCKotlin-Paper")
     }
 }
