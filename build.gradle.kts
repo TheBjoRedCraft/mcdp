@@ -25,6 +25,10 @@ kotlin {
 tasks {
     runServer {
         minecraftVersion("26.3")
+
+        downloadPlugins {
+            github("retrooper", "packetevents", "v2.14.0", "packetevents-spigot-2.14.0.jar")
+        }
     }
 }
 
